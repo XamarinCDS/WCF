@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MvcCliente.WSClientes.Cliente>
+
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    .di {
+        background-color: black;
+    }
+
+    .txt {
+        color: white;
+    }
+</style>
+<div class="jumbotron txt di">
+    <center><p colspan="6">Lista de clientes desde base de datos</p></center>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>Opción</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCliente)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                <button class="btn btn-info">@Html.ActionLink("Detalle", "Detalle", new { id = item.IdCliente })</button>
+            </td>
+        </tr>
+        }
+
+    </table>
+
+</div>

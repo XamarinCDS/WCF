@@ -1,0 +1,57 @@
+﻿@model IEnumerable<MvcCliente.SRPersona.Persona>
+
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    .di {
+        background-color: black;
+    }
+
+    .txt {
+        color: white;
+    }
+</style>
+<div class="jumbotron di txt">
+    <center><p>Lista de personas estaticas</p></center>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.Label("ID")
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Edad)
+            </th>
+            <th>Opción</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdPersona)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Edad)
+                </td>
+
+                <td>
+                    <button class="btn btn-info">@Html.ActionLink("Detalles", "Detalle", new { id = item.IdPersona })</button>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

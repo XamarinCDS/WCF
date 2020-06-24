@@ -1,0 +1,7 @@
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSPersonas\bin\WSPersonas.dll.config
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSPersonas\bin\WSPersonas.dll
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSPersonas\bin\WSPersonas.pdb
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSPersonas\obj\Debug\WSPersonas.csproj.CoreCompileInputs.cache
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSPersonas\obj\Debug\WSPersonas.dll
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSPersonas\obj\Debug\WSPersonas.pdb
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSPersonas\obj\Debug\WSPersonas.csprojAssemblyReference.cache

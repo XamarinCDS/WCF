@@ -1,0 +1,59 @@
+﻿@model MvcCliente.SRPersona.Persona
+
+@{
+    ViewBag.Title = "Detalle";
+}
+<style>
+    .di {
+        background-color: black;
+    }
+
+    .txt {
+        color: white;
+    }
+</style>
+
+<div class="jumbotron txt di">
+    <h4>
+        A continuación se muestra la información general de la persona
+        @Html.DisplayFor(c => c.Nombre)
+    </h4>
+</div>
+<div class="jumbotron di txt">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.Label("ID")
+            </th>
+            <th>
+                @Html.Label("Nombre")
+            </th>
+            <th>
+                @Html.Label("Apellido")
+            </th>
+            <th>
+                @Html.Label("Dirección")
+            </th>
+            <th>
+                @Html.Label("Télefono")
+            </th>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.IdPersona)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Edad)
+            </td>
+        </tr>
+    </table>
+    <button class="btn btn-info">
+        @Html.ActionLink("Retornar", "Index")
+    </button>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\bin\WSEjemploDb.dll.config
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\bin\WSEjemploDb.dll
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\bin\WSEjemploDb.pdb
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\bin\EntityFramework.dll
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\bin\EntityFramework.SqlServer.dll
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\bin\EntityFramework.xml
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\bin\EntityFramework.SqlServer.xml
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\obj\Debug\WSEjemploDb.csprojAssemblyReference.cache
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\obj\Debug\WSEjemploDb.csproj.CoreCompileInputs.cache
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\obj\Debug\WSEjemploDb.csproj.CopyComplete
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\obj\Debug\WSEjemploDb.dll
+C:\Users\CDS -\Desktop\Xamarin Nivel 2\CREACION DE SERVICIOS WEB\WcfMyService\WSEjemploDb\obj\Debug\WSEjemploDb.pdb
